@@ -1,0 +1,21 @@
+{
+  "name": "LGG",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "web3": "^1.6.1",
+    "@truffle/contract": "^4.4.8"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.20"
+  },
+  "scripts": {
+    "test": "truffle compile && truffle test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
